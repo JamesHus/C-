@@ -35,5 +35,6 @@ int main()
     string s7 = s4.substr(4,4);
     cout<<s7<<endl;
     cout<<s4.rfind("handsome")-s4.find("handsome")<<endl;
+    cout<<s3+s4<<endl;
     return 0;
 }
